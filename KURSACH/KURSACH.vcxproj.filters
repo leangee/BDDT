@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Railway_System">
+      <UniqueIdentifier>{33da151b-92ea-4483-bda9-81da9dce7973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Railway_System\include">
+      <UniqueIdentifier>{7768e5e4-77ca-4b82-abc5-db6d2a728736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Railway_System\src">
+      <UniqueIdentifier>{fe78d50e-b258-40a4-8344-0798d4536926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Railway_System\data">
+      <UniqueIdentifier>{b71b1679-9fca-4baa-b9fd-fecf3df72bd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wagon.h">
+      <Filter>Railway_System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting_node.h">
+      <Filter>Railway_System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="railway_system.h">
+      <Filter>Railway_System\include</Filter>
+    </ClInclude>
+    <ClInclude Include="wagontype.h">
+      <Filter>Railway_System\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="x64\Debug\input.txt">
+      <Filter>Railway_System\data</Filter>
+    </Text>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wagon.cpp">
+      <Filter>Railway_System\src</Filter>
+    </ClCompile>
+    <ClCompile Include="sorting_node.cpp">
+      <Filter>Railway_System\src</Filter>
+    </ClCompile>
+    <ClCompile Include="railway_system.cpp">
+      <Filter>Railway_System\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Railway_System\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
