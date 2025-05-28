@@ -23,7 +23,7 @@ void SortingNode::sortWagons() {
 void SortingNode::displayResults() const {
     if (leftTrack.empty() && rightTrack.empty())
     {
-        std::cout << " ) )))0)" << std::endl;
+        std::cout << "\nДанные отсутствуют. Сортировка невозможна." << std::endl;
         return;
     }
 
